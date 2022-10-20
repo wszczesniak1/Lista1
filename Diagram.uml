@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/szcze/IdeaProjects/sem3zad7/src/main/java</OriginalElement>
+  <nodes>
+    <node x="-92.83829971362867" y="223.14814276918378">org.example.DetectiveBookService</node>
+    <node x="219.8998979560307" y="267.3053168219119">org.example.FantasyBookService</node>
+    <node x="6.340695599544986" y="362.7843946845473">org.example.Main</node>
+    <node x="244.932452035526" y="-14.33187097195929">org.example.Book</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.example.FantasyBookService" target="org.example.Book" relationship="GENERALIZATION">
+      <point x="-119.99989795603071" y="-3.1682191189474906E-4" />
+      <point x="190.0" y="305.805" />
+      <point x="190.0" y="91.168" />
+      <point x="-68.00045203552602" y="-1.290280407033606E-4" />
+    </edge>
+    <edge source="org.example.Main" target="org.example.FantasyBookService" relationship="CREATE">
+      <point x="-0.0" y="-38.5" />
+      <point x="82.84069559954499" y="320.805" />
+      <point x="-120.0" y="14.999683178088105" />
+    </edge>
+    <edge source="org.example.DetectiveBookService" target="org.example.Book" relationship="CREATE">
+      <point x="2.997136286850832E-4" y="-38.50014276918378" />
+      <point x="33.16200000000001" y="-31.832" />
+      <point x="398.432" y="-31.832" />
+      <point x="398.432" y="229.0" />
+      <point x="312.932" y="229.0" />
+      <point x="-4.520355259955977E-4" y="105.4998709719593" />
+    </edge>
+    <edge source="org.example.FantasyBookService" target="org.example.Book" relationship="CREATE">
+      <point x="1.0204396926383197E-4" y="-38.500316821911895" />
+      <point x="339.9" y="229.0" />
+      <point x="312.932" y="229.0" />
+      <point x="-4.520355259955977E-4" y="105.4998709719593" />
+    </edge>
+    <edge source="org.example.Main" target="org.example.DetectiveBookService" relationship="CREATE">
+      <point x="-49.67899531317366" y="-38.5" />
+      <point x="-0.0" y="38.5" />
+    </edge>
+    <edge source="org.example.DetectiveBookService" target="org.example.Book" relationship="GENERALIZATION">
+      <point x="126.00029971362869" y="-1.4276918375344394E-4" />
+      <point x="190.0" y="261.648" />
+      <point x="190.0" y="91.168" />
+      <point x="-68.00045203552602" y="-1.290280407033606E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="183.50000000000006" y="204.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
